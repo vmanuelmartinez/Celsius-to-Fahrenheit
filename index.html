@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+        <form id="Formulario-temperatura"> <!--Criamos o formulario-->
+            <label>Temperatura en Celsius:</label>
+            <input type="number" id="celsius"required> <!--Nosso valor principal-->
+            <button type="button" onclick="Converter_temperatura()">Convertir</button>
+        </form>
+
+        <div id="resultado">
+            <p id="Resultado-Fahrenheit"></p>
+            <p id="Resultado-Kevin"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
